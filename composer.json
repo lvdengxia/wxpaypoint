@@ -1,0 +1,25 @@
+{
+  "name": "lvdengxia/wechatpaypoint",
+  "description": "WeChat payment point",
+  "type": "library",
+  "keywords": [
+    "wechat",
+    "payment"
+  ],
+  "authors": [
+    {
+      "name": "cooper",
+      "email": "15731208870@163.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "ext-openssl": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "WxPayPoint\\": "src/"
+    }
+  }
+}
